@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function salutaUtilizatorul() {
+            var nume = document.getElementById("nume").value;
+            alert("Salut, " + nume + "!");
+        }
+    </script>
+</head>
+<body>
+    <h1>Formular de Salut</h1>
+    <p>Introdu numele tău pentru a fi salutat:</p>
+
+    <form onsubmit="event.preventDefault(); salutaUtilizatorul();">
+        <label for="nume">Nume:</label>
+        <input type="text" id="nume" name="nume" required>
+        <button type="submit">Salută-mă!</button>
+    </form>
+</body>
+</html>
