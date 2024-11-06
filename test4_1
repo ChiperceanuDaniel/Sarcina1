@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function afiseazaMesaj() {
+            alert("Ați apăsat butonul!");
+        }
+    </script>
+</head>
+<body>
+    <h1>Salut, utilizator!</h1>
+    <p>Apasă pe butonul de mai jos pentru a vedea un mesaj.</p>
+    <button onclick="afiseazaMesaj()">Apasă-mă!</button>
+</body>
+</html>
